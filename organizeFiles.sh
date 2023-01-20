@@ -103,7 +103,7 @@ echo "$GREEN process completed  $CLEAR"
 while : 
 do 
 
-	echo  "$GREEN desea organizar los archivos de las carpetas principales? (yes or no): $CLEAR"
+	echo  "$GREEN do you want to organize the files in the main folders? (yes or no): $CLEAR"
 	read -r option
 
 	if [ "$option" == "yes" ];
